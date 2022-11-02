@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+html {
+  font-size: 14px;
+  backround-color: gray;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        border: solid 2px black;
+        border-width: thin;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+   
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: gray;
+}
+p {
+    border: solid 2px black;
+    border-width: thin;
+    background-color:darkred;
+    color: darksalmon;   
+}
+    
